@@ -1,0 +1,20 @@
+body{
+    /* position: relative; */
+    background-color: rgba(255, 192, 203, 0.258);
+}
+.center{
+    position: absolute;
+    position: fixed;
+    width: 350px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: rgb(146, 161, 201); */
+    background-image: linear-gradient(rgba(255, 192, 203, 0.627),rgba(75, 75, 153, 0.622));
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.496);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
